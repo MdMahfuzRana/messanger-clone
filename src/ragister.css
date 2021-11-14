@@ -1,0 +1,54 @@
+.ragister__container__main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 226, 226);
+}
+.ragister__box__container{
+    height:500px;
+    width: 400px;
+    border-radius: 20px;
+    border:1px solid lightgrey;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    color:#278fd4;
+    padding: 20px;
+}
+.logo__container{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo__container>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.button{
+    height: 45px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 133, 226);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: royalblue;
+}

@@ -1,0 +1,29 @@
+.ChatBoxHeading__main{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:10vh;
+    width: 100%;
+    /* background-color:red; */
+    padding:20px;
+    border-bottom: 1px solid lightgrey;
+}
+.ChatBoxHeading__status{
+    height:100%;
+    width:50%;
+    display:flex;
+    align-items:center;
+}
+.ChatBoxHeading__status>div{
+    margin-right: 10px;
+}
+.ChatBoxHeading__event{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.ChatBoxHeading__event>div{
+    margin-left:20px;
+
+}

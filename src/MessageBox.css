@@ -1,0 +1,16 @@
+.messenger__box{
+    height: 100vh;
+    width: 100v;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message__sidebar{
+    height: 100vh;
+    width: 35%;
+}
+.message__box{
+    height: 100vh;
+    width: 65%;
+
+}

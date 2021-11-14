@@ -1,0 +1,45 @@
+.ChatBodyFooter__main{
+    height: 8vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+        
+}
+.ChatBodyFooter__inputer__box{
+    height:40px;
+    width: 90%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right: 10px;
+
+}
+.ChatBodyFooter__sender__box{
+    width: 10%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 10px;
+
+
+}
+.inputer{
+    height:40px;
+    width: 100%;
+    border-radius: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 10px;
+}
+.inputer>input{
+    height:100%;
+    width:100%;
+    padding:20px;
+    outline:0;
+    border:0px;
+    border-radius: 20px;
+    background-color:lightgrey;
+}
